@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome Extension",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/path/to/your/extension",
+      "webRoot": "${workspaceFolder}/path/to/your/extension",
+      "runtimeExecutable": "chrome.exe", // Path to Chrome installation
+      "runtimeArgs": [
+        "--remote-debugging-port=9222", // Port for debugging
+        "--disable-extensions-except=${workspaceFolder}/path/to/your/extension",
+        "--load-extension=${workspaceFolder}/path/to/your/extension"
+      ],
+      "sourceMaps": true
+    }
+  ]
+}

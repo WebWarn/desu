@@ -1,0 +1,41 @@
+/* Background and text color */
+body {
+  background-color: #0bdb15; /* lime background color */
+  color: white; /* White text color */
+  font-family: "Your Unique Font", Arial, sans-serif; /* Use your unique font here */
+}
+
+/* Heading */
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+/* Check button */
+#checkWebsite {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #574c4c; /* Dark gray button color */
+  color: white;
+  font-weight: bold; /* Make the button text bold */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover effect for the button */
+#checkWebsite:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Container */
+.container {
+  text-align: center; /* Center-align the content within the container */
+  padding: 20px; /* Space out the elements */
+}
+
+/* Style the images */
+.image {
+  margin: 10px; /* Add margin around the images to space them out */
+}
